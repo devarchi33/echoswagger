@@ -15,7 +15,7 @@ func TestNop(t *testing.T) {
 	r := NewNop(e)
 
 	path := "test"
-	expectHandler := "github.com/pangpanglabs/echoswagger/v2.testHandler"
+	expectHandler := "github.com/devarchi33/echoswagger/v2.testHandler"
 	a := r.Add(http.MethodConnect, path, testHandler)
 	assert.Equal(t, a.Route().Method, http.MethodConnect)
 	assert.Equal(t, a.Route().Name, expectHandler)

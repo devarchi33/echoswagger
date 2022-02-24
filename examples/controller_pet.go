@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
+	"github.com/devarchi33/echoswagger/v2"
 	"github.com/labstack/echo/v4"
-	"github.com/pangpanglabs/echoswagger/v2"
 )
 
 type PetController struct{}
