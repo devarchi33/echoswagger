@@ -16,7 +16,7 @@ English | [简体中文](./README_zh-CN.md)
 
 ## Installation
 ```
-go get github.com/devarchi33/echoswagger
+go get github.com/devarchi33/echoswagger/v2
 ```
 
 ## Go modules support
@@ -31,14 +31,15 @@ To use v2 version, just do:
 Meanwhile, v1 version will still be updated if needed. For more details of Go modules, please refer to [Go Wiki](https://github.com/golang/go/wiki/Modules).
 
 ## Example
+
 ```go
 package main
 
 import (
 	"net/http"
 
-	"github.com/labstack/echo"
-	"github.com/devarchi33/echoswagger"
+	"github.com/devarchi33/echoswagger/v2"
+	"github.com/labstack/echo/v4"
 )
 
 func main() {

@@ -16,7 +16,7 @@
 
 ## 安装
 ```
-go get github.com/devarchi33/echoswagger
+go get github.com/devarchi33/echoswagger/v2
 ```
 
 ## Go modules 支持
@@ -31,14 +31,15 @@ go get github.com/devarchi33/echoswagger
 同时，v1版本将继续更新。关于Go modules的详细内容，请参考 [Go Wiki](https://github.com/golang/go/wiki/Modules)
 
 ## 示例
+
 ```go
 package main
 
 import (
 	"net/http"
 
-	"github.com/labstack/echo"
-	"github.com/devarchi33/echoswagger"
+	"github.com/devarchi33/echoswagger/v2"
+	"github.com/labstack/echo/v4"
 )
 
 func main() {
